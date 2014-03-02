@@ -1,0 +1,23 @@
+{
+    "name": "mataps/social-login",
+    "description": "Laravel social login integration",
+    "authors": [
+        {
+            "name": "Ryan Navarroza",
+            "email": "mataps47@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Mataps\\SocialLogin\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
